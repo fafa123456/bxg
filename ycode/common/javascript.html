@@ -6,8 +6,12 @@
 <script src="/ycode/public/js/common.js"></script>
 <script src="/ycode/assets/echarts/echarts.min.js"></script>-->
 
-<script src="/ycode/assets/require/require.js"></script>
+<script src="/ycode/public/libs/require.js"></script>
+<script src="/ycode/public/libs/config.js"></script>
 <script>
+    require(["common"]);
+</script>
+<!--<script>
     requirejs.config({
         baseUrl: "/ycode/",
         paths: {
@@ -27,4 +31,4 @@
     })
     require(["common"]);
 
-</script>
+</script>-->
