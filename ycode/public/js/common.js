@@ -30,6 +30,5 @@ define(['jquery', 'cookie', "nprogress", "template"], function ($, cookie, NProg
 				location.href = "/login";
 			}
 		})
-
 	})
 });
